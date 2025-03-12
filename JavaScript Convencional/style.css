@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 100vh;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header{
+    position: relative;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    top: 80px;
+    left: 80px;
+    gap: 30px;
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.titulos h1{
+    color: yellow;
+    font-size: 3rem;
+}
+
+.titulos p{
+    color: white;
+}
+
+.itens{
+    position: relative;
+    top: 150px;
+    left: 80px;
+    margin-top: 50px;
+}
+
+.itens .caixas{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.itens .caixas div{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.opcoes{
+    position: relative;
+    top: 150px;
+    left: 80px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    max-width: 70%;
+    
+}
+
+.opcoes ul{
+    color: #fff;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+    gap: 10px;
+}
+
+
+
+
